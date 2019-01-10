@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Baseball Fan Guessing Game</title>
+</head>
+<body>
+<h1> Baseball Fan Guessing Game : </h1>
+<script>
+
+window.alert("Hi Baseball Fans! The Red Sox Are The World Champs!!");
+
+var user = prompt('So Fan, What is Your Name?');
+console.log('what is your name', user);
+
+alert(user + ', Let\'s See If You Are A Real Red Sox Fan!');
+
+var answer2 = prompt (user + ", Are the Red Sox better than the Yankees? Answer with Y or N.").toUpperCase();
+console.log ('Are the Sox better than the Yankees"?', answer2);
+
+if (answer2 === "Y") {
+    alert('Yes, Let\'s Go! Sox!');
+} else {
+   alert("No? Let\'s Go Sox");
+}
+
+var years = prompt('How many years were the Red Sox cursed?');
+console.log ('how many years were the red sox cursed');
+
+if (years === '86'){
+alert(`Correct, Cursed for 86`); // Cursed for 86 years!
+} else 
+{
+    alert ('Incorrect, 86 miserable years');
+}
+
+    
+
+window.alert("The Curse is Reversed");
+</script>
+</body>
+
+</html>
