@@ -1,3 +1,9 @@
+<!-- 
+    REMINDER: backslashes // are used in JavaScript only for comments
+    In HTML, use arrow comment tags like the ones surrounding this.
+-->
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,6 +12,7 @@
         <link rel "stylesheet" href="style.css"> -->
 
         <!-- base styles -->
+        <!-- REMINDER: move CSS to external stylesheet and add link (like above) -->
         <style>
             header {
                 background: #444; 
@@ -16,8 +23,11 @@
                 border: 5px solid red;
                 padding: 10px;
                 margin: 20px;
-                }
-
+                max-width: 800px;
+            }
+            img {
+                max-width: 100%;
+            }
             /* #woof {
                 border: 2px dashed yellow;
                 padding: 15px 3px;
@@ -29,12 +39,39 @@
     </head>
 
     <body>
-        <h1> Caroline Anne's Photography : </h1>
+        <h1>Caroline Anne's Photography:</h1>
         <p>
-            <img src="https://www.flickr.com/photos/artpunkphotography/31641861977/in/album-72157677308202068/ "></img> 
+            <img src="img/thunderpussy.jpg"></img> 
             <!-- add image and something exciting here -->
         </p>
+
+        <p>My top ten favorite bands I photographed this year.</p>
+        <!-- unordered list -->
+        <ul>
+            <li>Pearl Jam </li>
+            <li>Thunderpussy </li>
+            <li>Israel Nash </li>
+            <li>Sera Cahoone </li>
+            <li>Marissa Nadler </li>
+            <li>Delvon LaMarr Organ Trio </li>
+            <li>Mudhoney </li>
+            <li>Red Fang </li>
+            <li>Car Seat Headrest & Naked Giants</li>
+            <li>Afghan Whigs</li>
+        </ul>
+
+        <a href="index.html">My Portfolio</a>
+        <!-- unordered list -->
+        <ul>
+            <li>Innocent Words Magazine</li>
+            <li>Ballard Vox</li>
+            <li>Instagram</li>
+            <li>Facebook</li>
+        </ul>
+
+        <!-- link to external JavaScript file -->
         <script src="app.js"></script>
+
     </body>
 </html>
 
